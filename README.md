@@ -21,10 +21,14 @@
 ## Установка
 
 1. Склонируйте репозиторий:
-   ```sh git clone https://github.com/safron64/test-assignment.git```
+   ```sh
+    git clone https://github.com/safron64/test-assignment.git
+   ```
 
-2. Перейдите в директорию проекта:
-    ```cd pentagon-image-mask```
+3. Перейдите в директорию проекта:
+    ```
+   cd pentagon-image-mask
+    ```
 
 ## Использование
 1. Откройте файл index.html в браузере для просмотра варианта с использованием чистого CSS.
