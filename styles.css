@@ -1,0 +1,61 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.pentagon {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	margin: 1rem;
+	overflow: hidden;
+}
+
+.pentagon img {
+	position: absolute;
+	width: 350px;
+	height: 250px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: transform 0.3s ease;
+}
+
+.pentagon:hover img {
+	transform: translate(-50%, -50%) scale(1.1);
+}
+
+svg {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+}
+
+@media (max-width: 1600px) {
+	.container {
+		justify-content: space-around;
+	}
+	.pentagon {
+		width: calc(33.333% - 2rem);
+	}
+}
+
+@media (max-width: 1100px) {
+	.pentagon {
+		width: 100%;
+	}
+}
+
+@media (max-width: 720px) {
+	.pentagon {
+		width: calc(100% - 2rem);
+	}
+}
+
+@media (max-width: 420px) {
+	.pentagon {
+		width: calc(100% - 2rem);
+	}
+}
+
